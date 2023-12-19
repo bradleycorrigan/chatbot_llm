@@ -37,7 +37,7 @@ def main() -> None:
     st.header("Bot 🤖")
     st.markdown("Langchain 🦜️⛓️ + Streamlit 👑 + Llama 🦙")
 
-    llm_chain = get_llm_chain(model_name="models/llama-2-7b-chat.ggmlv3.q2_K.bin")
+    llm_chain = get_llm_chain(model_name="models/llama_2_new.bin")
 
     question = st.text_input("What do you want to ask?")
     button = st.button("Ask")
